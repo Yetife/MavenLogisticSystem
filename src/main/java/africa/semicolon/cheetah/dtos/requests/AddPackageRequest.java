@@ -5,7 +5,7 @@ import lombok.Data;
 @Data
 public class AddPackageRequest {
     private String senderName;
-    private String senderPhone;
+    private String senderPhonenumber;
     private String receiverName;
     private String deliveryAdresss;
     private double packageWeight;
